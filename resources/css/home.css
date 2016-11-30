@@ -1,0 +1,101 @@
+/*
+===================================================
+Auteur : Loïc Herzig
+Date : 02.09.16
+Lieu : ETML - N103
+À propos : Feuille de style de la page home.html
+===================================================
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+canvas {
+	z-index: -999;
+	display: block;
+	position: fixed;
+}
+
+.whiteColor {
+	color: white;
+}
+
+body {
+	background: url("../../resources/images/blackBoard.jpg");
+	background-position: cover;
+	background-attachment: fixed;
+}
+
+#container {
+	width: 80%;
+	margin: auto;
+	z-index: 1;
+}
+
+#banner{
+	display: block;
+	margin: auto;
+	width: 20%;
+	margin-bottom: 2%;
+	
+}
+
+ul {
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+li {
+	display: inline;
+	margin-left: 10%;
+}
+
+#natelList {
+	border-style: solid;
+	border-radius: 20px;
+	border-color: white;
+}
+
+.firstNatel {
+	height: 200px;
+	padding-bottom: 10px;
+	padding: 10px;
+}
+
+.natel {
+	height: 200px;
+	padding-bottom: 10px;
+	padding: 10px;
+	border-top: 1px;
+	border-top-style: solid;
+	border-color: white;
+}
+
+.natel img, .firstNatel img {
+	display: block;
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+
+.feature{
+	text-align: center;
+	height: 183px; /*200-17*/
+	padding-top: 17px;
+	color: white;
+}
+
+.feature h2 {
+	margin-bottom: 20px;
+}
+
+.feature a {
+	text-decoration: none;
+	color: white;
+}
+
+.price {
+	margin-top: 20px;
+}

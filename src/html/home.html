@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<!--
+===================================================
+Auteur : Loïc Herzig
+Date : 02.09.16
+Lieu : ETML - N103
+À propos : Feuille de style de la page home.html
+===================================================
+-->
+	<head>
+		<title>ZEKONPARATEUR2FON</title>
+		<meta charset="utf-8"/>
+		<link href="../../resources/css/home.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/three.js"></script>
+	</head>
+	<body>
+	    <script src="../js/script.js"></script>
+		<div id="container">
+			<img id="banner" src="../../resources/images/iphone7.gif" alt="bannière"/>
+			<ul>
+				<li>
+					<select>
+						  <option value="OS">OS</option>
+						  <option value="Android">Androïd</option>
+						  <option value="IOS">IOS</option>
+					</select>
+				</li>
+				<li>
+					<select>
+						  <option value="Constructor">Constructeur</option>
+						  <option value="Android">Apple</option>
+						  <option value="Google">Google</option>
+						  <option value="Huawei">Huawei</option>
+						  <option value="HTC">HTC</option>
+						  <option value="Samsung">Samsung</option>
+						  <option value="Xiaomi">Xiaomi</option>
+					</select>
+				</li>
+				<li>
+					<input type="checkbox" id="batteryLife" name="batteryLife" value="batteryLife"><label for="batteryLife"><span class="whiteColor">Autonomie</span></label>
+				</li>
+				<li>
+					<input type="checkbox" id="CPU" name="CPU" value="CPU"><label for="CPU"><span class="whiteColor">CPU</span></label>
+				</li>
+				<li>
+					<input type="range" min="0" max="1000" value="0" step="10" onchange="showValue(this.value)" />
+					<span id="priceBar" class="whiteColor">0</span>
+					<script type="text/javascript">
+					function showValue(newValue)
+					{
+						//Écrit la valeur de la slide bar
+						document.getElementById("priceBar").innerHTML=newValue + ".-";
+					}
+					</script>
+				</li>
+			</ul>
+			<div id="natelList">
+				<div class="firstNatel">
+					<img src="../../resources/images/loutre.jpg" alt="Photo n"/>
+					<div class="feature">
+						<a href="https://www.google.ch"><h2>Nom téléphone</h2></a>
+						<p>OS</p>
+						<p>Constructeur</p>
+						<p>Autonomie</p>
+						<p>CPU</p>
+						<h3 class="price">300.-<h3>
+					</div>
+				</div>
+				<div class="natel">
+					<img src="../../resources/images/loutre.jpg" alt="Photo n"/>
+					<div class="feature">
+						<a href="https://www.google.ch"><h2>Nom téléphone</h2></a>
+						<p>OS</p>
+						<p>Constructeur</p>
+						<p>Autonomie</p>
+						<p>CPU</p>
+						<h3 class="price">300.-<h3>
+					</div>
+				</div>
+				<div class="natel">
+					<img src="../../resources/images/loutre.jpg" alt="Photo n"/>
+					<div class="feature">
+						<a href="https://www.google.ch"><h2>Nom téléphone</h2></a>
+						<p>OS</p>
+						<p>Constructeur</p>
+						<p>Autonomie</p>
+						<p>CPU</p>
+						<h3 class="price">300.-<h3>
+					</div>
+				</div>
+				<div class="natel">
+					<img src="../../resources/images/loutre.jpg" alt="Photo n"/>
+					<div class="feature">
+						<a href="https://www.google.ch"><h2>Nom téléphone</h2></a>
+						<p>OS</p>
+						<p>Constructeur</p>
+						<p>Autonomie</p>
+						<p>CPU</p>
+						<h3 class="price">300.-<h3>
+					</div>
+				</div>
+				<div class="natel">
+					<img src="../../resources/images/loutre.jpg" alt="Photo n"/>
+					<div class="feature">
+						<a href="https://www.google.ch"><h2>Nom téléphone</h2></a>
+						<p>OS</p>
+						<p>Constructeur</p>
+						<p>Autonomie</p>
+						<p>CPU</p>
+						<h3 class="price">300.-<h3>
+					</div>
+				</div>
+				<div class="natel">
+					<img src="../../resources/images/loutre.jpg" alt="Photo n"/>
+					<div class="feature">
+						<a href="https://www.google.ch"><h2>Nom téléphone</h2></a>
+						<p>OS</p>
+						<p>Constructeur</p>
+						<p>Autonomie</p>
+						<p>CPU</p>
+						<h3 class="price">300.-<h3>
+					</div>
+				</div>
+				<div class="natel">
+					<img src="../../resources/images/loutre.jpg" alt="Photo n"/>
+					<div class="feature">
+						<a href="https://www.google.ch"><h2>Nom téléphone</h2></a>
+						<p>OS</p>
+						<p>Constructeur</p>
+						<p>Autonomie</p>
+						<p>CPU</p>
+						<h3 class="price">300.-<h3>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</body>
+</html>
